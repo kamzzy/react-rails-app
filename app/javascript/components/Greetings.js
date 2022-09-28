@@ -1,21 +1,16 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
-
-const baseurl = "http://localhost:3000/greetings";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { randomGreeting } from "./redux/greeting";
 
 const Greetings = () => {
-  const [greetData, setGreetData] = useState({});
-
+  const greetings = useSelector((state) => state.greeting);
+  const dispatch = useDispatch();
   useEffect(() => {
-    getGreetings();
+    dispatch(randomGreeting());
   }, []);
-  const getGreetings = async () => {
-    const response = await axios.get(baseurl);
-    setGreetData(response.data);
-  };
 
   return (
-  <h1>{greetData.greeting}</h1>
+  <h1>{greetings.greeting}</h1>
   );
 }
 
