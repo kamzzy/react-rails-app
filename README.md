@@ -1,24 +1,50 @@
-# README
+# react rails app
+> A greeting application built for learning purposes.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ ***
+<!-- ### [Deployed version](https://arcane-mountain-22736.herokuapp.com/)
+### [Demo](https://www.loom.com/share/264e6dfc03ec4d6ba608c6d549331072) -->
+## Built With
+* Ruby On Rails
+* React
+* Webpack
+***
+## Getting Started
 
-Things you may want to cover:
+* Clone the repository to get a local copy
+* Run `bundle install` to install all depndencies 
+*Run `npm install` to install all depndencies`
+* Run `rails db:migrate` to create the database`
 
-* Ruby version
+* Run the app using `./bin/dev`
+***
+##  unit testing
+* Run tests using rspec 
+***
+### Prerequisites
+* Ruby
+* Rails
+* NodeJs
+***
+### Author
 
-* System dependencies
+👤 Onyeagoziri Precious Akams
 
-* Configuration
+* GitHub: [@kamzzy](https://github.com/kamzzy)
+* Twitter:[@precious_akams](https://twitter.com/precious_akams)
+* LinkedIn:[Onyeagoziri Akams](https://www.linkedin.com/in/onyeagoziri-akams/)
+* AngelList:[Onyeagoziri Akams](https://angel.co/u/onyeagoziri-akams)
+***
+### 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
-* Database creation
+Feel free to check the [issues page](../../issues/).
 
-* Database initialization
+Show your support
+Give a ⭐️ if you like this project!
+***
+### Acknowledgments
+* Microverse
+ ***
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project is [MIT](./MIT.md) licensed.
